@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce un poco sobre mí y mis proyectos">
+    <meta name="keywords" content="portfolio, front end, back end, web developer, full stack">
+    <meta name="author" content="Laura Escalante">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="shortcut icon" href="assets/img/le.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ef3f394e31.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Menu -->
+    <header>
+        <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <div class="navbar-logo">
+                <img src="assets/img/le.png" alt="logo">
+                <a href="#inicio">LE</a>
+            </div>
+            <div class="navbar-menu">
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#inicio">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="navbar-text">Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#mi">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="navbar-text">Sobre mi</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <i class="fa-solid fa-folder"></i>
+                            <span class="navbar-text">Proyectos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="navbar-text">Contacto</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="navbar-social">
+                    <a href="https://www.linkedin.com/in/maria-laura-escalante/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/mlse8" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </a>
+                    <a href="https://www.instagram.com/maria_laura_escalante/" target="_blank">
+                        <i class="fa-solid fa-at"></i>
+                        <span>Gmail</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="slides-container">
+            <!-- Seccion inicio -->
+            <section id="inicio" class="slide portada">
+                <div class="portada-title">
+                    <h1>LAURA ESCALANTE</h1>
+                    <p>WEB DEVELOPER</p>
+                    <a href="assets/CV-Maria-Laura-Sabrina-Escalante.pdf" download="CV-Maria-Laura-Sabrina-Escalante.pdf" class="btn">Descarga mi CV</a>
+                </div>
+                <figure class="portada-img">
+                    <img src="assets/img/perfil.png" alt="perfil">
+                </figure>
+                <a href="assets/CV-Maria-Laura-Sabrina-Escalante.pdf" download="CV-Maria-Laura-Sabrina-Escalante.pdf" class="btn">Descarga mi CV</a>
+            </section> 
+            <!-- Seccion sobre mi -->
+            <section id="mi" class="slide me">
+                <div class="me-title">
+                    <h2>SOBRE MI</h2>
+                    <p>Soy desarrolladora web en formación
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quibusdam ea, pariatur obcaecati accusamus debitis incidunt eius praesentium rem deleniti maiores id laboriosam cum facilis ipsam repellendus, excepturi quam dolor!
+                    </p>
+                </div>
+                <div class="me-skills">
+                    <h2>CONOCIMIENTOS</h2>
+                    <div class="skills">
+                        <div class="skill">
+                            <i class="fa-brands fa-html5"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-square-js"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-git-alt"></i>
+                            <p>GIT</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-github"></i>
+                            <p>Github</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-python"></i>
+                            <p>Python</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-java"></i>
+                            <p>Java</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Seccion proyectos -->
+            <section id="projects" class="slide projects">
+                <h2 class="projects-title">PROYECTOS</h2>
+                <div class="projects-cards">
+                    <div class="card">
+                        <figure class="card-title">
+                            <h3>Portfolio</h3>
+                            <img src="assets/img/portfolio.png" alt="portfolio">
+                        </figure>
+                        <div class="card-info">
+                            <p>Portfolio creado usando solo HTML y CSS</p>
+                            <a href="#" target="_blank" class="btn"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank" class="btn"><i class="fa-solid fa-desktop"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card-title">
+                            <h3>Dulce Tentacion</h3>
+                            <img src="assets/img/dulce.png" alt="dulce tentación">
+                        </figure>
+                        <div class="card-info">
+                            <p>Practica de Ada en donde se creó una landing page de repostería usando flex, position y hover.</p>
+                            <a href="https://github.com/mlse8/ada_dulce" target="_blank" class="btn"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://mlse8.github.io/ada_dulce/" target="_blank" class="btn"><i class="fa-solid fa-desktop"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card-title">
+                            <h3>Minions</h3>
+                            <img src="assets/img/minions.png" alt="minions">
+                        </figure>
+                        <div class="card-info dark">
+                            <p>Practica de Ada en donde se creó una landing page de Minions.</p>
+                            <a href="https://github.com/mlse8/ada_minions" target="_blank" class="btn"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://mlse8.github.io/ada_minions/" target="_blank" class="btn"><i class="fa-solid fa-desktop"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card-title">
+                            <h3>Salta de Turno</h3>
+                            <img src="assets/img/turno.png" alt="salta de turno">
+                        </figure>
+                        <div class="card-info dark">
+                            <p>Web en donde se pueden visualizar las farmacias de turno de Salta Capital</p>
+                            <a href="#" target="_blank" class="btn"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank" class="btn"><i class="fa-solid fa-desktop"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card-title">
+                            <h3>Foodie Tour</h3>
+                            <img src="assets/img/foodie.jpg" alt="foodie tour">
+                        </figure>
+                        <div class="card-info">
+                            <p>App de escritorio sobre destinos culinarios de Salta Capital. </p>
+                            <a href="https://github.com/mlse8/proyecto_python" target="_blank" class="btn"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank" class="btn"><i class="fa-solid fa-desktop"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Seccion contacto -->
+            <section id="contact" class="slide contact">
+                <div class="contact-info">
+                    <div class="contact-title">
+                        <h2>CONTACTO</h2>
+                        <p>Te gustaron mis trabajos? Puedes contactarme por mis redes sociales o completar el siguiente formulario</p>
+                    </div>
+                    <ul class="contact-social">
+                        <li><a href="https://www.linkedin.com/in/maria-laura-escalante/" target="_blank"><i class="fa-brands fa-linkedin"></i>Maria Laura Sabrina Escalante</a></li>
+                        <li><a href="https://github.com/mlse8" target="_blank"><i class="fa-brands fa-github"></i>Laura Escalante</a></li>
+                        <li><a href="mailto:laura088.le@gmail.com"><i class="fa-solid fa-envelope"></i>laura088.le@gmail.com</a></li>
+                        <li><a href="tel:+5493874191957"><i class="fa-solid fa-mobile-screen"></i>+54 9 3874191957</a></li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h2>ESCRIBEME</h2>
+                    <form>
+                        <fieldset class="form-name">
+                            <label for="name">Nombre *</label>
+                            <input type="text" id="name" placeholder="Maria Laura" required>
+                            <label for="surname">Apellido *</label>
+                            <input type="text" id="surname" placeholder="Escalante" required>
+                        </fieldset>
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" placeholder="laura088.le@gmail.com" required>
+                        <label for="message">Mensaje *</label>
+                        <textarea name="message" id="message" placeholder="Escribe tu mensaje" required></textarea>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <footer>
+                    <p>&copy; 2023 - Desarrollado por Laura Escalante</p>
+                </footer>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

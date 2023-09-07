@@ -1,0 +1,22 @@
+.container{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+}
+.slides-container{
+    width: fit-content;
+    height: 100vh;
+    transform: rotate(90deg) translateX(-100vh);
+    transform-origin: bottom left;
+    display: flex;
+    align-items: flex-end;
+}
+.slide{
+    width: 100vw;
+    height: 100vh;
+    /* animation: appear 1s forwards; */
+}
