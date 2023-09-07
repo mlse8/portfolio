@@ -24,3 +24,6 @@
 
 /* Estilos footer */
 @import url('footer.css');
+
+/* Estilos de swipe */
+@import url('swipe.css');

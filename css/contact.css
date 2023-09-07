@@ -22,6 +22,9 @@
 .contact-title h2{
     margin-bottom: 1rem;
 }
+.contact-title a i{
+    font-size: .8rem;
+}
 .contact-form h2{
     margin-bottom: 1rem;
     text-align: center;
@@ -83,6 +86,9 @@
     .contact-info,
     .contact-form{
         width: 50%;
+    }
+    .contact-title a i{
+        display: none;
     }
     .contact-form{
         align-self: flex-end;
