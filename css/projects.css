@@ -20,8 +20,8 @@
     overflow: scroll;
 }
 .card{
-    width: max(300px, 25%);
-    height: max(230px, 25%);
+    width: max(280px, 45vmin);
+    height: max(180px, 30vmin);
     overflow: hidden;
     border-radius: 1rem;
     text-align: center;
@@ -39,7 +39,6 @@
     width: 100%;
     height: calc(100% - 42px);
     transition: filter .3s;
-    align-self: flex-end;
 }
 .card-info{
     width: 100%;
