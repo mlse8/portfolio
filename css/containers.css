@@ -1,5 +1,5 @@
 .container{
-    height: 100dvw;
+    height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
     transform-origin: top left;
     overflow-y: scroll;
@@ -7,15 +7,15 @@
 }
 .slides-container{
     width: fit-content;
-    height: 100dvh;
+    height: 100vh;
     transform: rotate(90deg) translateX(-100vh);
     transform-origin: bottom left;
     display: flex;
     align-items: flex-end;
 }
 .slide{
-    width: 100dvw;
-    height: 100dvh;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
     animation: appear 1s forwards;
 }
