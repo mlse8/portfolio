@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.cdnfonts.com/css/resotyg-personal-use');
 
+/* Normalize */
+@import url('normalize.css');
+
 /* Estilos generales */
 @import url('general.css');
 
