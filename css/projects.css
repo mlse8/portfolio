@@ -37,25 +37,24 @@
 }
 .card-title img{
     width: 100%;
-    height: calc(100% - 42px);
+    height: calc(100% - 40px);
     transition: filter .3s;
 }
 .card-info{
     width: 100%;
     position: absolute;
-    top: 3rem;
-    z-index: 20;
+    top: 1.5rem;
+    z-index: 2;
     opacity: 0;
     transition: opacity .5s;
 }
 .card-info p{
     margin: 1.5rem 1rem;
-    font-size: 1.15rem;
-    font-weight: bold;
     letter-spacing: 1px;
 }
 .dark p{
     color: var(--background);
+    font-weight: bold;
 }
 .card:hover .card-info{
     opacity: 1;
@@ -68,5 +67,8 @@
 @media screen and (width >= 768px){
     .projects{
         padding-left: calc(1.5rem + 60px);
+    }
+    .card-info p{
+        font-size: 1.1rem;
     }
 }  
