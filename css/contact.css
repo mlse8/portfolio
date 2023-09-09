@@ -19,7 +19,7 @@
 .contact-form form{
     display: flex;
     flex-direction: column;
-    gap: .6rem;
+    gap: .4rem;
     border: none;
 }
 .contact-form input,
