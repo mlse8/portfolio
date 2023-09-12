@@ -42,11 +42,19 @@
 }
 .card-info{
     width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    top: 1.5rem;
+    top: 1rem;
     z-index: 2;
     opacity: 0;
     transition: opacity .5s;
+}
+.card-info a{
+    margin: 0 .3rem;
 }
 .card-info p{
     margin: 1.5rem 1rem;
@@ -70,5 +78,10 @@
     }
     .card-info p{
         font-size: 1.1rem;
+    }
+}  
+@media screen and (width >= 768px) and (height >= 1000px){
+    .card-info p{
+        font-size: 1.4rem;
     }
 }  
