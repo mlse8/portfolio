@@ -15,7 +15,6 @@
     --btn-hover: #748cab;
 }
 body{
-    height: 100dvh;
     overflow: hidden;
     scroll-behavior: smooth;
     background-color: var(--background);

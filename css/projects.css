@@ -10,8 +10,8 @@
     margin-bottom: .5rem;
 }
 .projects-cards{ 
-    height: calc(100vh - 130px);
-    margin: 0 auto;
+    height: calc(100vh - 160px);
+    margin: 1rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -21,7 +21,7 @@
 }
 .card{
     width: max(280px, 45vmin);
-    height: max(180px, 30vmin);
+    height: max(180px, 28vmin);
     overflow: hidden;
     border-radius: 1rem;
     text-align: center;
