@@ -53,6 +53,10 @@
     opacity: 0;
     transition: opacity .5s;
 }
+.adobe{
+    width: 20px;
+    height: 20px;
+}
 .card-info a{
     margin: 0 .3rem;
 }
@@ -60,14 +64,10 @@
     margin: 1.5rem 1rem;
     letter-spacing: 1px;
 }
-.dark p{
-    color: var(--background);
-    font-weight: bold;
-}
 .card:hover .card-info{
     opacity: 1;
 }
-.card:hover img{
+.card:hover img:not(.adobe){
     filter: blur(10px);
     opacity: .5;
 }
